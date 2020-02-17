@@ -1,0 +1,56 @@
+ul, li{
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+.container{
+    background-color: rgb(48, 47, 47);
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+
+.body{
+    background-color: rgb(34, 33, 33); 
+    height: 600px;
+
+}
+.card{
+    padding: 10pxpx;
+}
+
+.card-body{
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+.card-group{
+    margin-top: 20px;
+    align-items: flex-start ;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: rgb(43, 42, 42); /* Grey background color */
+    color: rgb(255, 255, 255); /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: rgb(63, 63, 63); /* Add a green color to the "active/current" link */
+    color: white;
+  }
+   a .img {
+      width: 30px;
+      height: 30px;
+      color: rgb(175, 170, 170);
+      
+  }

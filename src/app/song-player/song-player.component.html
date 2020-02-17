@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+
+ 
+<div class="body">
+  
+  <div class="media">
+    <img src="{{datosCanciones[indice].img}}" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0">Player</h5>
+      <br>
+      <audio controls >
+        <source  class="source" src= "{{datosCanciones[indice].archivo}}"  type="audio/mpeg">
+      </audio>
+
+    </div>
+  </div>
+</div>

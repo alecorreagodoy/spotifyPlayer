@@ -1,0 +1,14 @@
+.media{
+    background-color: rgb(78, 77, 77);
+    border-radius: 10px;
+}
+.source{
+    background-color: grey;
+}
+.mt-0{
+    color: white;
+}
+.body{
+    background-color:  rgb(48, 47, 47);
+    height: 600px;
+}

@@ -1,0 +1,41 @@
+
+<app-navbar></app-navbar>
+<div class="body"> 
+<div class="container">
+    <div class="row"> 
+      <div class="col-md-3">
+      
+        <div class="vertical-menu">
+          <a href="#" class="active">SpotyFake <img src="https://img.icons8.com/flat_round/64/000000/audio-wave-1.png" class="icon" style="max-width: 30px;
+            max-height: 30px;"></a>
+          <a href="#"><img class="img " src="/assets/img/sitio.png"></a>
+          <a href="#"><img class="img " src="/assets/img/buscar.png"></a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          
+        </div>
+
+      </div>
+
+        <div class="col-md-9">
+            <div class=" card-group">
+            <div  routerLink="song-player/{{cancion.URL}}" class="card" *ngFor="let cancion of listaCanciones" style="width: 18rem;">
+                <img src="{{cancion.cover}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{cancion.artista}}</h5>
+                  <p class="card-text">{{cancion.titulo}}</p>
+                  <a  routerLink= "song-player/{{cancion.URL}}"  class="btn "><img src="/assets/img/google_play_logo_icon_124348.png" class="icon" style="max-width: 30px;" alt="play"></a>
+                </div>
+              </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+</div>
+</div>
